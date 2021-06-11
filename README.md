@@ -4,6 +4,8 @@
 This is the accompanying code for our paper [BoolNet: Minimizing The Energy Consumption of Binary Neural Networks](todo).
 Here we provide the code and training details for our trainings from Section 4.5 "Comparison to State-of-the-Art BNNs".
 
+![BoolNet Design](.boolnet.png)
+
 ## Setup
 
 In any case you need to have a [CUDA setup](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
@@ -59,15 +61,15 @@ cat run.sh # print the training command for copying
 We provide more details about our individual runs (log files, accuracy curves, etc.),
 in the corresponding directories (or you can just use the links below):
 
-| Method                            | Bitwidth (W/A/F) | Energy Usage  | ImageNet Accuracy | Theoretical Operations |
-|-----------------------------------|:----------------:|:-------------:|:-----------------:|:----------------------:|
-| ReActNet (Bi-Real)                | 1/1/32           | **3.93mJ**    | 65.9%             | 1.63 x 10^8            |
-| Bi-RealNet                        | 1/1/32           | **3.90mJ**    | 56.4%             | 1.63 x 10^8            |
-| XNOR-Net                          | 1/1/32           | **1.92mJ**    | 51.2%             | 1.59 x 10^8            |
-| [BoolNet*(k=4)](BoolNet_k_4_star) | 1/1/4            | **1.18mJ**    | **59.6%**         | 1.76 x 10^8            |
-| [BoolNet(k=4)](BoolNet_k_4)       | 1/1/4            | **0.84mJ**    | **57.6%**         | 1.64 x 10^8            |
-| [BaseNet(k=4)](BaseNet_k_4)       | 1/1/4            | **0.74mJ**    | **55.1%**         | 1.54 x 10^8            |
-| [BaseNet(k=1)](BaseNet_k_1)       | 1/1/1            | **0.61mJ**    | **48.9%**         | 1.51 x 10^8            |
+| Method                            | Bit-width (W/A/F) | Energy Usage  | ImageNet Accuracy | Theoretical Operations |
+|-----------------------------------|:-----------------:|:-------------:|:-----------------:|:----------------------:|
+| [BoolNet*(k=4)](BoolNet_k_4_star) | 1/1/4             | **1.18mJ**    | **59.6%**         | 1.76 x 10^8            |
+| [BoolNet(k=4)](BoolNet_k_4)       | 1/1/4             | **0.84mJ**    | **57.6%**         | 1.64 x 10^8            |
+| [BaseNet(k=4)](BaseNet_k_4)       | 1/1/4             | **0.74mJ**    | **55.1%**         | 1.54 x 10^8            |
+| [BaseNet(k=1)](BaseNet_k_1)       | 1/1/1             | **0.61mJ**    | **48.9%**         | 1.51 x 10^8            |
+
+The bit-width refers to: W = weights, A = inputs (before convolutions), F = feature maps.
+The details for the calculation of energy usage can be found in our paper.
 
 ## Contributing
 
