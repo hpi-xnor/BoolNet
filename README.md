@@ -6,7 +6,7 @@ Here we provide the code and training details for our trainings from Section 4.5
 
 ## Setup
 
-In any case need to have a [CUDA setup](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+In any case you need to have a [CUDA setup](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 with a recent NVIDIA driver on your host system.
 (We tested driver version 465.27 with support for CUDA 11.3, but drivers supporting CUDA 11.1 should be fine.)
 
