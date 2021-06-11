@@ -1,0 +1,1 @@
+python main.py --train_batch_size 256 --lr 0.002 --optimizer RAdam --mode distillation --model boolnet18 --dataset ImageNet --parallel 4 --max_slices 4 --update_interval 256 --dali_cpu --binary_downsample --enlarge_resolution 1 --teachers resnet34 --epoch 90
