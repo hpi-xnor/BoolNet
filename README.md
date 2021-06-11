@@ -2,6 +2,7 @@
 # BoolNet: Minimizing The Energy Consumption of Binary Neural Networks 
 
 This is the accompanying code for our paper [BoolNet: Minimizing The Energy Consumption of Binary Neural Networks](todo).
+Here we provide the code and training details for our trainings from Section 4.5 "Comparison to State-of-the-Art BNNs".
 
 ## Setup
 
@@ -56,7 +57,7 @@ cat run.sh # print the training command for copying
 ## Experiment details
 
 We provide more details about our individual runs (log files, accuracy curves, etc.),
-in the corresponding directories (or just use the links below):
+in the corresponding directories (or you can just use the links below):
 
 | Method                            | Bitwidth (W/A/F) | Energy Usage  | ImageNet Accuracy | Theoretical Operations |
 |-----------------------------------|:----------------:|:-------------:|:-----------------:|:----------------------:|
