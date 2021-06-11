@@ -58,10 +58,10 @@ cat run.sh # print the training command for copying
 We provide more details about our individual runs (log files, accuracy curves, etc.),
 in the corresponding directories:
 
-- [BaseNet(k=1)](BaseNet_k=1)
-- [BaseNet(k=4)](BaseNet_k=4)
-- [BoolNet(k=4)](BoolNet_k=4)
-- [BoolNet*(k=4)](BoolNet_k=4_star)
+- [BaseNet(k=1)](BaseNet_k_1)
+- [BaseNet(k=4)](BaseNet_k_4)
+- [BoolNet(k=4)](BoolNet_k_4)
+- [BoolNet*(k=4)](BoolNet_k_4_star)
 
 ## Contributing
 
