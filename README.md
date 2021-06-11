@@ -56,12 +56,17 @@ cat run.sh # print the training command for copying
 ## Experiment details
 
 We provide more details about our individual runs (log files, accuracy curves, etc.),
-in the corresponding directories:
+in the corresponding directories (or just use the links below):
 
-- [BaseNet(k=1)](BaseNet_k_1)
-- [BaseNet(k=4)](BaseNet_k_4)
-- [BoolNet(k=4)](BoolNet_k_4)
-- [BoolNet*(k=4)](BoolNet_k_4_star)
+| Method                            | Bitwidth (W/A/F) | Energy Consumption  | ImageNet Accuracy | Theoretical Operations |
+|-----------------------------------|------------------|---------------------|-------------------|------------------------|
+| ReActNet (Bi-Real)                | 1/1/32           | **3.93mJ**          | 65.9%             | 1.63 x 10^8            |
+| Bi-RealNet                        | 1/1/32           | **3.90mJ**          | 56.4%             | 1.63 x 10^8            |
+| XNOR-Net                          | 1/1/32           | **1.92mJ**          | 51.2%             | 1.59 x 10^8            |
+| [BoolNet*(k=4)](BoolNet_k_4_star) | 1/1/4            | **1.18mJ**          | **59.6%**         | 1.76 x 10^8            |
+| [BoolNet(k=4)](BoolNet_k_4)       | 1/1/4            | **0.84mJ**          | **57.6%**         | 1.64 x 10^8            |
+| [BaseNet(k=4)](BaseNet_k_4)       | 1/1/4            | **0.74mJ**          | **55.1%**         | 1.54 x 10^8            |
+| [BaseNet(k=1)](BaseNet_k_1)       | 1/1/1            | **0.61mJ**          | **48.9%**         | 1.51 x 10^8            |
 
 ## Contributing
 
