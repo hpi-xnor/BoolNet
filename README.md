@@ -1,7 +1,7 @@
 
 # BoolNet: Minimizing The Energy Consumption of Binary Neural Networks 
 
-This is the accompanying code for our paper [BoolNet: Minimizing The Energy Consumption of Binary Neural Networks](todo).
+This is the accompanying code for our paper [BoolNet: Minimizing The Energy Consumption of Binary Neural Networks](https://arxiv.org/abs/2106.06991).
 Here we provide the code and training details for our trainings from Section 4.5 "Comparison to State-of-the-Art BNNs".
 
 ![BoolNet Design](.boolnet.png)
@@ -79,5 +79,12 @@ Please feel free to open an issue or a pull request, if you encounter problems o
 
 If you want to compare to our results or if our code has helped your research, we would be happy if you can cite us:
 ```
-TODO
+@misc{guo2021boolnet,
+      title={BoolNet: Minimizing The Energy Consumption of Binary Neural Networks}, 
+      author={Nianhui Guo and Joseph Bethge and Haojin Yang and Kai Zhong and Xuefei Ning and Christoph Meinel and Yu Wang},
+      year={2021},
+      eprint={2106.06991},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
