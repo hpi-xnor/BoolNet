@@ -1,7 +1,7 @@
 
-# BoolNet: Minimizing The Energy Consumption of Binary Neural Networks 
+# BoolNet: Minimizing the Energy Consumption of Binary Neural Networks 
 
-This is the accompanying code for our paper [BoolNet: Minimizing The Energy Consumption of Binary Neural Networks](https://arxiv.org/abs/2106.06991).
+This is the accompanying code for our paper [BoolNet: Minimizing the Energy Consumption of Binary Neural Networks](https://arxiv.org/abs/2106.06991).
 Here we provide the code and training details for our trainings from Section 4.5 "Comparison to State-of-the-Art BNNs".
 
 ![BoolNet Design](.boolnet.png)
